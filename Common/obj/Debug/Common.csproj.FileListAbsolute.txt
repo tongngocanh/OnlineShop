@@ -1,0 +1,16 @@
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\Common\bin\Debug\Common.dll
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\Common\bin\Debug\Common.pdb
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\Common\obj\Debug\Common.dll
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\Common\obj\Debug\Common.pdb
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\Common\bin\Debug\Common.dll
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\Common\bin\Debug\Common.pdb
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\Common\obj\Debug\Common.dll
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\Common\obj\Debug\Common.pdb
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\bin\Debug\Common.dll
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\bin\Debug\Common.pdb
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\obj\Debug\Common.dll
+C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\obj\Debug\Common.pdb

@@ -1,0 +1,11 @@
+﻿@model List<OnlineShop.Models.CartItem>
+<div class="cart">
+    <p>
+        Chào mừng bạn đến với website <a href="/gio-hang"><span>Giỏ hàng:<i class="fas fa-shopping-cart"></i></span></a><div id="dd" class="wrapper-dropdown-2">
+            @Model.Count sản phẩm
+            <ul class="dropdown">
+                <li>you have @Model.Count product in your Car Market</li>
+            </ul>
+        </div>
+    </p>
+</div>

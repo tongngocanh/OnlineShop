@@ -1,0 +1,62 @@
+﻿@model List<Model.EF.Menu>
+    
+<div class="call">
+    <p><span>Liên hệ</span><a href="https://www.facebook.com/choxe.otofun.net" target="_blank" class="footer_icon"><i class="fab fa-facebook-f"></i></a></span></p>
+</div>
+<div class="account_desc">
+    @{
+        var session = (UserLogin)Session[OnlineShop.Common.CommonConstants.USER_SESSION];
+    }
+    @if (session == null)
+    {
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><a href="@item.Link" target="@item.Target">@item.Text</a></li>
+            }
+
+        </ul>
+    }
+    else
+    {
+<ul>
+    <li>Xin chào: @session.UserName</li>
+    <li><a href="dang-xuat" title="Đăng xuất"><i class="fas fa-sign-out-alt"></i></a></li>
+</ul>
+    }
+
+</div>
+<div class="clear"></div>
+<script>
+    var pageX, pageY;
+
+    $(document).mousemove(
+        function (e) {
+            pageX = e.pageX;
+            pageY = e.pageY;
+        });
+
+    $('#tooltipped li[title]').hover(
+        function () {
+            var tip = $('<div />')
+                .addClass('tooltip')
+                .text($(this).attr('title'))
+                .css({
+                    'position': 'absolute',
+                    'top': pageY,
+                    'left': pageX
+                });
+            $(tip).appendTo($(this));
+            $(this).mousemove(
+                function () {
+                    $('.tooltip').css(
+                        {
+                            'top': pageY,
+                            'left': pageX
+                        });
+                });
+        },
+        function () {
+            $('.tooltip').remove();
+        });
+</script>

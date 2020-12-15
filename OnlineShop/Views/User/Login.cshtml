@@ -1,0 +1,56 @@
+﻿@model OnlineShop.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content login_form">
+    @using (Html.BeginForm("Login", "User", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <h2>Đăng nhập</h2>
+            <div class="login"></div>
+            <div class="form-group">
+                <label class="control-label col-md-3"></label>
+                <div class="col-md-8">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-8">
+                    @Html.TextBoxFor(model => model.UserName, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group passWord">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-3" })
+                <div class="col-md-8">
+                    @Html.PasswordFor(model => model.Password, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Đăng nhập" class="btn btn-primary" />
+                    <a class="btn btn-facebook" href="/User/LoginFacebook">
+                        <i class="fa fa-facebook"></i>
+                        Đăng nhập bằng Facebook
+                    </a>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <p>Bạn chưa có tài khoản? <a class="register_link" href="/dang-ky">Đăng ký</a></p>
+                    </div>
+                </div>
+            </div>
+    }
+
+
+</div>
+
+
