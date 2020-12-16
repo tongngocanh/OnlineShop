@@ -165,7 +165,7 @@ namespace OnlineShop.Controllers
                         product.MetaDescriptions = item.Product.MetaDescriptions;
                         product.Status = item.Product.Status;
                         product.TopHot = item.Product.TopHot;
-                        product.ViewCount = item.Product.ViewCount;
+                        product.ViewCount = item.Product.ViewCount + item.Quantity;
                         product.Color = item.Product.Color;
                         product.Fuels = item.Product.Fuels;
                         product.Gear = item.Product.Gear;

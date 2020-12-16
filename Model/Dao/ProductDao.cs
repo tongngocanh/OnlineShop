@@ -22,6 +22,7 @@ namespace Model.Dao
             {
                 var product = db.Products.Find(entity.ID);
                 product.Quantity = entity.Quantity;
+                product.ViewCount = entity.ViewCount;
                 db.SaveChanges();
                 return true;
             }

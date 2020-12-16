@@ -23,7 +23,7 @@ namespace OnlineShop.Controllers
         }
 
         [ChildActionOnly]
-        [OutputCache(Duration = 3600 * 24, VaryByParam = "none")]
+        /*[OutputCache(Duration = 3600 * 24, VaryByParam = "none")]*/
         public ActionResult MainMenu()
         {
             var model = new MenuDao().ListByGroupId(1);
@@ -48,7 +48,7 @@ namespace OnlineShop.Controllers
             return PartialView(list);
         }
         [ChildActionOnly]
-        [OutputCache(Duration = 3600 * 24, VaryByParam = "none")]
+        /*[OutputCache(Duration = 3600 * 24, VaryByParam = "none")]*/
         public ActionResult Footer()
         {
             var model = new FooterDao().GetFooter();
