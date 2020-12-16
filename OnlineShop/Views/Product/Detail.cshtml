@@ -69,7 +69,7 @@
                     <h2>@Model.Name </h2>
                     <p>@Model.Description</p>
                     <div class="price">
-                        <p>Giá: <span>@(Model.Price.HasValue ? Model.Price.Value.ToString("N0") : "Liên hệ")</span></p>
+                        <p>Giá: <span>@(Model.Price.HasValue ? Model.Price.Value.ToString("N0")+" vnđ" : "Liên hệ")</span></p>
                         <p>Số lượng: @(Model.Quantity > 0 ? Model.Quantity.ToString() : "Đã hết hàng")</p>
                     </div>
                     <div class="share-desc">
@@ -142,7 +142,7 @@
         </div>
         <div class="rightsidebar span_3_of_1">
             @{ Html.RenderAction("ProductCategory", "Product");}
-            <div class="subscribe">
+            @*<div class="subscribe">
                 <h2>Newsletters Signup</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.......</p>
                 <div class="signup">
@@ -184,7 +184,7 @@
                         </ul>
                     </form>
                 </div>
-            </div>
+            </div>*@
         </div>
     </div>
 </div>
