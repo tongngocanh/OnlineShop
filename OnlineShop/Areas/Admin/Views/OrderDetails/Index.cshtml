@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Model.EF.OrderDetail>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layouts.cshtml";
+}
+
+<h2>Danh sách đơn hàng</h2>
+
+<p>
+    @Html.ActionLink("Thêm", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.OrderID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProductID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.OrderID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.ActionLink("Sửa", "Edit", new { id1 = item.ProductID, id2 = item.OrderID }) |
+            @Html.ActionLink("Chi tiết", "Details", new { id1 = item.ProductID, id2 = item.OrderID }) |
+            @Html.ActionLink("Xóa", "Delete", new { id1 = item.ProductID, id2 = item.OrderID })
+        </td>
+    </tr>
+}
+
+</table>

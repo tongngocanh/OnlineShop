@@ -15,3 +15,9 @@ C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\obj\Debug\Co
 C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\obj\Debug\Common.dll
 C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\obj\Debug\Common.pdb
 C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\OnlineShop\Common\bin\Debug\Common.dll
+C:\Users\ADMIN\Desktop\OnlineShop\Common\bin\Debug\Common.pdb
+C:\Users\ADMIN\Desktop\OnlineShop\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\OnlineShop\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\OnlineShop\Common\obj\Debug\Common.dll
+C:\Users\ADMIN\Desktop\OnlineShop\Common\obj\Debug\Common.pdb

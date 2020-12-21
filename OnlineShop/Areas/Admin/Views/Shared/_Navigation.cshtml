@@ -265,29 +265,13 @@
                     <!-- /.nav-second-level -->
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-comment fa-fw"></i> Tin tức<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="/Admin/Category/Index">Danh mục</a>
-                        </li>
-                        <li>
-                            <a href="/Admin/Content/Index">Tin tức</a>
-                        </li>
-                    </ul>
-                    <!-- /.nav-second-level -->
+                    <a href="@Url.Action("Index", "ProductCategories")"><i class="fa fa-comment fa-fw"></i> Danh mục</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa fa-bell fa-fw"></i> Sản phẩm<span class="fa arrow"></span></a>
-                    <ul class="nav nav-second-level">
-                        <li>
-                            <a href="/Admin/ProductCategory/Index">Danh mục</a>
-                        </li>
-                        <li>
-                            <a href="/Admin/Product/Index">Tin tức</a>
-                        </li>
-                    </ul>
-                    <!-- /.nav-second-level -->
-                </li>
+                    <a href="@Url.Action("Index", "Products")"><i class="fa fa-bell fa-fw"></i> Sản phẩm</a>
+                <li>
+                <li>
+                    <a href="@Url.Action("Index", "OrderDetails")"><i class="fa fa-android fa-fw"></i> Sản phẩm</a>
                 <li>
                     <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Quản lý chung<span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">

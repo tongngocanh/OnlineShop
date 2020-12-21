@@ -27,3 +27,14 @@ C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\StaticResources\obj
 C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\StaticResources\obj\Debug\en\StaticResources.resources.dll
 C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\StaticResources\obj\Debug\StaticResources.dll
 C:\Users\Admin\Documents\ASP.Net\OnlineShop_52\OnlineShop_52\StaticResources\obj\Debug\StaticResources.pdb
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\ADMIN\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.pdb
